@@ -6,7 +6,7 @@ A simple full-stack web application with Authentication and a Dashboard for Note
     TODO: Add an image of the application dashboard here.
     Replace the path below with your actual image path, e.g., ./screenshots/dashboard.png 
 -->
-![Dashboard Screenshot](./path/to/dashboard_screenshot.png)
+![Dashboard Screenshot](./images/dashboard_screenshot.png)
 
 Built with MERN Stack (MongoDB, Express, React, Node.js).
 UI Library: TailwindCSS.
@@ -106,7 +106,7 @@ The frontend runs on port `5173` by default.
 <!-- 
     TODO: Add an image of the Note Creation process or Login screen here.
 -->
-![Login Screen](./path/to/login_screenshot.png)
+![Login Screen](./images/login_screenshot.png)
 
 ## API Documentation
 A Postman collection is included in the root directory: `postman_collection.json`. Import it into Postman to test APIs directly.
