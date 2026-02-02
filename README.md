@@ -134,17 +134,10 @@ A Postman collection is included in the root directory: `postman_collection.json
 
 To scale this application for production, I would implement the following strategies:
 
-1. **Deployment & Environment**:
-   - Containerize the app using **Docker** for consistent environments.
-   - Use orchestration tools like **Kubernetes** or manage via **AWS ECS** for auto-scaling based on load.
-   - Use strict CORS policies and secure Cookie attributes (HttpOnly, Secure) for token storage.
-
-2. **Database Optimization**:
-   - Add **Indexes** on frequently queried fields.
-   - Implement **Caching** (Redis) for frequently accessed data.
-   - Use a managed DB service (MongoDB Atlas) with auto-scaling.
-
-3. **Performance & Reliability**:
-   - Implement **Rate Limiting** to prevent abuse.
-   - Use a **Load Balancer** (Nginx or AWS ALB) to distribute traffic.
-   - meaningful **Logging** and Monitoring.
+- Deploying the application on cloud platform for better scalability and availability.
+- Using env variables to securely manage API keys and DB credentials/
+- Configuring CORS to allows requests only from trusted client domains.
+- Applying database indexing for faster querying.
+- Using cache (redis) to reduce database load and faster querying and efficiency.
+- To balance load using feature like auto scaling in cloud providers.
+  
