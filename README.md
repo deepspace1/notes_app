@@ -130,7 +130,7 @@ A Postman collection is included in the root directory: `postman_collection.json
 ### 4. Port Conflicts
 -   If port 5000 or 5173 is busy, stop the other process or change the port in `.env` (server) and `vite.config.js` (client).
 
-## 🚀 How to Scale for Production
+##  How to Scale for Production
 
 To scale this application for production, I would implement the following strategies:
 
